@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Integer-Graph-Visualizer/static/css/main.769ecbf0.chunk.css",
+    "main.js": "/Integer-Graph-Visualizer/static/js/main.44141890.chunk.js",
+    "main.js.map": "/Integer-Graph-Visualizer/static/js/main.44141890.chunk.js.map",
+    "runtime-main.js": "/Integer-Graph-Visualizer/static/js/runtime-main.a5827bcc.js",
+    "runtime-main.js.map": "/Integer-Graph-Visualizer/static/js/runtime-main.a5827bcc.js.map",
+    "static/js/2.e51c1137.chunk.js": "/Integer-Graph-Visualizer/static/js/2.e51c1137.chunk.js",
+    "static/js/2.e51c1137.chunk.js.map": "/Integer-Graph-Visualizer/static/js/2.e51c1137.chunk.js.map",
+    "index.html": "/Integer-Graph-Visualizer/index.html",
+    "static/css/main.769ecbf0.chunk.css.map": "/Integer-Graph-Visualizer/static/css/main.769ecbf0.chunk.css.map",
+    "static/js/2.e51c1137.chunk.js.LICENSE.txt": "/Integer-Graph-Visualizer/static/js/2.e51c1137.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5827bcc.js",
+    "static/js/2.e51c1137.chunk.js",
+    "static/css/main.769ecbf0.chunk.css",
+    "static/js/main.44141890.chunk.js"
+  ]
+}
