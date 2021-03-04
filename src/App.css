@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+.graph-wrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 70vw;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	padding: 3em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-wrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 620px;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	background-color:rgba(250, 250, 250, 0.3) ;
+	border-radius: 20px;
+	padding: 3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-title {
+	font-size: 2em;
+	text-align: center;
+	margin: 1em 0;
+	color: #282c34;
+	font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.manual-input, .title-input {
+	color: #e5c07b;
+	background: #282c34;
+	border-radius: 5px;
+	border: solid 1px rgba(171, 178, 191, 0.5);
+	font-size: 1.2em;
+	outline: none;
+	padding: 0 0.5em;
+	margin: 0 0.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.input-wrapper {
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+	margin: 1em 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-label {
+	color: #282c34;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.ding {
+	color: #282c34;
+	color: #e06c75;
+	color: #98c379;
+	color: #e5c07b;
+	color: #abb2bf;
+	color: #61afef;
+}
+
+.text-span {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #282c34;
+	display: flex;
+	justify-content: center;
+}
+
+
+.csv-input {
+	padding: 10px 20px;
+	background-color: #282c34;
+	color: #E06C75;
+	width: fit-content;
+	border-radius: 10px;
+	cursor: pointer;
+	align-self: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.graph-title {
+	color: #E06C75;
+	font-size: 2em;
+}
+
+.graph-top-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.toggle-view {
+	display: flex;
+	flex-direction: row;
+	color:#282c34;
+	font-weight: 500;
+	font-size: 1.0em;
+	cursor: pointer;
+}
+
+.bar-btn {
+	background-color: #98c379;
+	border-radius: 15px 0px 0 15px;
+}
+
+.bar-btn:hover, .line-btn:hover{
+	opacity: 0.5;
+}
+
+.line-btn {
+	background-color: #61afef;
+	border-radius: 0px 15px 15px 0;
+}
+
+.toggle-btn {
+	padding: 10px 20px;
+}
+
+.graph-body {
+	flex: auto;
+}
+
+.inline-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.back-btn {
+	cursor: pointer;
+	color: #282c34;
+	background-color: #e5c07b;
+	padding: 10px 20px;
+	border-radius: 15px;
+	margin-bottom: 1em;
+	width: fit-content;
+}
+
+#create-chart {
+	padding: 10px 20px;
+	background-color: #282c34;
+	color: #98c379;
+	width: fit-content;
+	border-radius: 10px;
+	cursor: pointer;
+	align-self: center;
+	justify-self: end;
+}
+
+#error-msg {
+	color: red;
 }
